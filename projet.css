@@ -12,18 +12,18 @@ img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    flex-flow: row;
+    
 }
 
 body{
-    background-color: blue;
+    background-color: #ccc;
     margin: 0;
 }
 .bloc{ 
     background-color: yellow;
     border: 2px solid black;
-    height: 150px;
-    width: 400px;
+    height: 100px;
+    width: 336px;
     margin: 5px;
     display: flex;
     justify-content: center;

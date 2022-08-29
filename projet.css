@@ -3,33 +3,75 @@ h2{
     color: white;
 }
 
-.img{
+img{
     width: 100%;
-    height: 500px;;
+    height: 300px;
 }
 #container{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-flow: row;
 }
+
 body{
-    background-color: aquamarine;
+    background-color: blue;
     margin: 0;
-    padding: 0;
 }
 .bloc{ 
     background-color: yellow;
+    border: 2px solid black;
     height: 150px;
-   width: 905px;
-   margin: 5px;
+    width: 400px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+@media screen and (max-width: 600px){
+  #container{
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+  }
+  #conteneur{
+    width: 100%;
+    
+}
+.bloc{
+    width: 336px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-p{
+}
+textarea{
+    width: 151px;
+    height: 88px;
+}
+.bloc p{
     transform: rotate(90deg);
-    color: blue;
+    
     font-size: 30px;
     font-weight: bold;
 }
+#button-container {
+    display: flex;
+    justify-content: center;
+}
+#button{
+padding: 5px;
+width: 5%;
+border-radius: 50%;
+}
+#conteneur{
+    display: flex;
+    justify-content: center;
+    margin-top: 23px;
+    text-align: center;
+    color: red;
+    font-size: 16px;
+    }

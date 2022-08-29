@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset
+    ="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TP1</title>
@@ -11,10 +12,38 @@
     <img class= "img" src="simplon_inauguration_0.png" alt="image simplon">
     <h2>Mon premier TP: khadidiatou bouba diallo</h2>
     <div id="container">
-        <div class="bloc"><p>bloc1</p></div>
-        <div class="bloc"><p>bloc2</p></div>
-        <div class="bloc"><p>bloc3</p></div>
-        <div class="bloc"><p>bloc4</p></div>
+        <div class="bloc" id="bloc1"><p>bloc1</p></div>
+        <div class="bloc" id="bloc2"><p>bloc2</p></div>
+        <div class="bloc" id="bloc3"><p>bloc3</p></div>
+        <div class="bloc" id="bloc4"><p>bloc4</p></div>
 </div>
+<div id="button-container">
+    <button id="button">click!</button>
+</div>
+<div id="conteneur">
+    <form>
+        
+        <label for="name"><strong>prénom</strong> </label></br>
+        <input type="text" id="prenom"  placeholder="prenom" ></br>
+        <label for="name"><strong>nom</strong> </label></br>
+        <input type="text" id="nom" placeholder="nom" ></br>
+        <label for="name"><strong>Email</strong> </label></br>
+        <input type="email" id="email" placeholder="address email" ></br>
+        <label for="name"><strong>Tel</strong> </label></br>
+        <input type="tel" id="num"  placeholder="00 221 78 445 23 25" ></br>
+        <h3>Commentaire</h3>
+        <div> <textarea name="" id="comment" cols="60" rows="10"></textarea></div>
+        
+      <div>
+       <input type="button" value="afficher le resultat" onclick="affiche();">
+    </div>
+   </form>
+  
+</div>
+<div>
+<p id="formulaire"></p>
+
+</div>
+<script src="projet.js"></script>
 </body>
 </html>
